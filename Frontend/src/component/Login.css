@@ -1,0 +1,54 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgb(20, 128, 152),
+    rgb(37, 195, 252)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, rgb(20, 128, 152), rgb(37, 195, 252));
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.centered-title {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  background-color: #0ec594;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.centered-button {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  color: black;
+  background-color: #0ec594;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Login.css */
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6); /* Example color: white with 60% opacity */
+}
+
+
+

@@ -1,0 +1,70 @@
+/* Home.css */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f8f9fa;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 1rem;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+.icon-settings {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: blue;
+  margin-right: 10px; /* Space between icons */
+}
+
+.icon-delete {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: red;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-item.disabled .page-link {
+  pointer-events: none;
+  color: #6c757d;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+/* CSS */
+.table-row-content {
+  display: flex;
+  align-items: center;
+}
+
+.table-row-content img {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
+}
+
+
